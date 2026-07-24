@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { background-color: black; color: white; font-family: sans-serif; margin: 0; padding: 0; }
+
+        #landing-page { 
+            height: 100vh; 
+            width: 100%;
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center; 
+            align-items: center; 
+            background-color: black; 
+        }
+
+        #landing-page img { max-width: 300px; height: auto; display: block; }
+
+        #gallery-page { display: none; padding: 20px; }
+        
+        .grid { 
+            display: grid; 
+            /* This makes the grid cards smaller and more compact */
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); 
+            gap: 15px; 
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .stone-card { 
+            background-color: #1a1a1a; 
+            padding: 10px; 
+            border: 1px solid #333; 
+            border-radius: 8px; 
+            text-align: center;
+        }
+        
+        /* This forces images to be smaller and contain the whole view */
+        .stone-card img { 
+            width: 100%; 
+            height: 140px; 
+            object-fit: contain; 
+            background-color: #000;
+            border-radius: 4px; 
+        }
+
+        button { 
+            padding: 15px 40px; 
+            font-size: 20px; 
+            cursor: pointer; 
+            background-color: #b22222; 
+            color: white; 
+            border: none; 
+            border-radius: 50px; 
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="landing-page">
+        <img src="logo.png" alt="Logo">
+        <button onclick="enterSite()">Enter Collection</button>
+    </div>
+
+    <div id="gallery-page">
+        <div class="grid">
+            </div>
+    </div>
+
+    <script>
+        function enterSite() {
+            document.getElementById('landing-page').style.display = 'none';
+            document.getElementById('gallery-page').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
+
+<div class="stone-card">
+    <img src="african-blood-stone-10mm.jpg" alt="African Blood Stone">
+    <h3>African Blood Stone</h3>
+    <p>A stone of courage and strength.</p>
+    
+    <div class="stone-details">
+        <p><strong>Stone Size:</strong> 8mm</p>
+        <p><strong>Wrist Size:</strong> 7 inches</p>
+        <p><strong>Price:</strong> $30.00</p>
+   
+<div class="stone-card">
+    <img src="Sodalite-10mm.jpg" alt="Sodalite">
+    <h3>Sodalite</h3>
+    <p>A stone of courage and strength.</p>
+    
+    <div class="stone-details">
+        <p><strong>Stone Size:</strong> 8mm</p>
+        <p><strong>Wrist Size:</strong> 7 inches</p>
+        <p><strong>Price:</strong> $30.00</p>
+    </div>
+</div> 
+
+<div class="stone-card">
+    <img src="Red-Carnelian-10mm.png" alt="Red Carnelian">
+    <h3>Red Carnelian</h3>
+    <p>A stone of courage and strength.</p>
+    
+    <div class="stone-details">
+        <p><strong>Stone Size:</strong> 8mm</p>
+        <p><strong>Wrist Size:</strong> 7 inches</p>
+        <p><strong>Price:</strong> $25.00</p>
+    </div>
+</div>
+
+ <div class="stone-card">
+    <img src="Dragon-Stone-10mm.jpg" alt="Dragon Stone">
+    <h3>Dragon-Stone</h3>
+    <p>A stone of courage and strength.</p>
+    
+    <div class="stone-details">
+        <p><strong>Stone Size:</strong> 8mm</p>
+        <p><strong>Wrist Size:</strong> 7 inches</p>
+        <p><strong>Price:</strong> $25.00</p>
+    </div>
+</div>
+
+<div class="stone-card">
+    <img src="Green-Aventurine-10mm.jpg" alt="Green Aventurine">
+    <h3>Green-Aventurine</h3>
+    <p>A stone of courage and strength.</p>
+    
+    <div class="stone-details">
+        <p><strong>Stone Size:</strong> 8mm</p>
+        <p><strong>Wrist Size:</strong> 7 inches</p>
+        <p><strong>Price:</strong> $25.00</p>
+    </div>
+</div>
+  
+<div class="stone-card">
+    <img src="Red-Agate-10mm.jpg" alt="Red Agate">
+    <h3>Red-Agate-10mm</h3>
+    <p>A stone of courage and strength.</p>
+    
+    <div class="stone-details">
+        <p><strong>Stone Size:</strong> 8mm</p>
+        <p><strong>Wrist Size:</strong> 7 inches</p>
+        <p><strong>Price:</strong> $25.00</p>
+    </div>
+</div>
+
+<div class="stone-card">
+    <img src="Honey-Tigers-Eye-10mm.jpg" alt="Honey Tigers Eye">
+    <h3>Honey-Tigers-Eye</h3>
+    <p>A stone of courage and strength.</p>
+    
+    <div class="stone-details">
+        <p><strong>Stone Size:</strong> 8mm</p>
+        <p><strong>Wrist Size:</strong> 7 inches</p>
+        <p><strong>Price:</strong> $30.00</p>
+    </div>
+</div>
+
+<div class="stone-card">
+    <img src="Purple-Tigers-Eye-10mm.jpg" alt="Purple Tigers Eye">
+    <h3>Purple Tigers Eye</h3>
+    <p>A stone of courage and strength.</p>
+    
+    <div class="stone-details">
+        <p><strong>Stone Size:</strong> 8mm</p>
+        <p><strong>Wrist Size:</strong> 7 inches</p>
+        <p><strong>Price:</strong> $25.00</p>
+    </div>
+</div>
+
+<div class="stone-card">
+    <img src="Lepidolite-10mm.jpg" alt="Lepidolite">
+    <h3>Lepidolite</h3>
+    <p>A stone of courage and strength.</p>
+    
+    <div class="stone-details">
+        <p><strong>Stone Size:</strong> 8mm</p>
+        <p><strong>Wrist Size:</strong> 7 inches</p>
+        <p><strong>Price:</strong> $25.00</p>
+    </div>
+</div>
+
+<div class="stone-card">
+    <img src="Rhodonite-10mm.jpg" alt="Rhodonite">
+    <h3>Rhodonite</h3>
+    <p>A stone of courage and strength.</p>
+    
+    <div class="stone-details">
+        <p><strong>Stone Size:</strong> 8mm</p>
+        <p><strong>Wrist Size:</strong> 7 inches</p>
+        <p><strong>Price:</strong> $25.00</p>
+    </div>
+</div>
+
+<div class="stone-card">
+    <img src="Onyx-10mm.jpg" alt="Onyx">
+    <h3>Onyx</h3>
+    <p>A stone of courage and strength.</p>
+    
+    <div class="stone-details">
+        <p><strong>Stone Size:</strong> 8mm</p>
+        <p><strong>Wrist Size:</strong> 7 inches</p>
+        <p><strong>Price:</strong> $25.00</p>
+    </div>
+</div>
+
+<div class="stone-card">
+    <img src="Howlite-10mm.jpg" alt="Howlite">
+    <h3>Howlite</h3>
+    <p>A stone of courage and strength.</p>
+    
+    <div class="stone-details">
+        <p><strong>Stone Size:</strong> 8mm</p>
+        <p><strong>Wrist Size:</strong> 7 inches</p>
+        <p><strong>Price:</strong> $25.00</p>
+    </div>
+</div>
+
+<div class="stone-card">
+    <img src="Unakite-10mm.jpg" alt="Unakite">
+    <h3>Unakite</h3>
+    <p>A stone of courage and strength.</p>
+    
+    <div class="stone-details">
+        <p><strong>Stone Size:</strong> 8mm</p>
+        <p><strong>Wrist Size:</strong> 7 inches</p>
+        <p><strong>Price:</strong> $25.00</p>
+    </div>
+</div>
+
+<div class="stone-card">
+    <img src="Green-Moss-Agate-10mm.jpg" alt="Green Moss Agate">
+    <h3>Green Moss Agate</h3>
+    <p>A stone of courage and strength.</p>
+    
+    <div class="stone-details">
+        <p><strong>Stone Size:</strong> 8mm</p>
+        <p><strong>Wrist Size:</strong> 7 inches</p>
+        <p><strong>Price:</strong> $25.00</p>
+    </div>
+</div>
+
+<div class="stone-card">
+    <img src="Fluorite-10mm.jpg" alt="Fluorite">
+    <h3>Fluorite</h3>
+    <p>A stone of courage and strength.</p>
+    
+    <div class="stone-details">
+        <p><strong>Stone Size:</strong> 8mm</p>
+        <p><strong>Wrist Size:</strong> 7 inches</p>
+        <p><strong>Price:</strong> $25.00</p>
+    </div>
+</div>
+
+<div class="stone-card">
+    <img src="Ruby-Zoisite-10mm.jpg" alt="Ruby Zoisite">
+    <h3>Ruby Zoisite</h3>
+    <p>A stone of courage and strength.</p>
+    
+    <div class="stone-details">
+        <p><strong>Stone Size:</strong> 8mm</p>
+        <p><strong>Wrist Size:</strong> 7 inches</p>
+        <p><strong>Price:</strong> $25.00</p>
+    </div>
+</div>
+
+<div class="stone-card">
+    <img src="Tigers-Eye-10mm.jpg" alt="Tigers Eye">
+    <h3>Tigers Eye</h3>
+    <p>A stone of courage and strength.</p>
+    
+    <div class="stone-details">
+        <p><strong>Stone Size:</strong> 8mm</p>
+        <p><strong>Wrist Size:</strong> 7 inches</p>
+        <p><strong>Price:</strong> $25.00</p>
+    </div>
+</div>
+
+<div class="stone-card">
+    <img src="Map-Stone-10mm.jpg" alt="Map Stone">
+    <h3>Map Stone</h3>
+    <p>A stone of courage and strength.</p>
+    
+    <div class="stone-details">
+        <p><strong>Stone Size:</strong> 8mm</p>
+        <p><strong>Wrist Size:</strong> 7 inches</p>
+        <p><strong>Price:</strong> $25.00</p>
+    </div>
+</div>
+
+<div class="stone-card">
+    <img src="Hematite-10mm.jpg" alt="Hematite">
+    <h3>Hematite</h3>
+    <p>A stone of courage and strength.</p>
+    
+    <div class="stone-details">
+        <p><strong>Stone Size:</strong> 8mm</p>
+        <p><strong>Wrist Size:</strong> 7 inches</p>
+        <p><strong>Price:</strong> $25.00</p>
+    </div>
+</div>
+
+<div class="stone-card">
+    <img src="Pietersite-10mm.jpg" alt="Pietersite">
+    <h3>Pietersite</h3>
+    <p>A stone of courage and strength.</p>
+    
+    <div class="stone-details">
+        <p><strong>Stone Size:</strong> 8mm</p>
+        <p><strong>Wrist Size:</strong> 7 inches</p>
+        <p><strong>Price:</strong> $25.00</p>
+    </div>
+</div>
